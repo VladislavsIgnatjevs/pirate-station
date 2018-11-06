@@ -6,7 +6,7 @@ $(document).ready(function () {
         event.preventDefault();
 
         var search = encodeURIComponent(jQuery.trim(data.search));
-        console.log(search)
+        console.log(search);
 
         $('.tablebody').empty();
 
