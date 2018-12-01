@@ -1,5 +1,5 @@
 ###### PIRATE STATION 
-# Chrome app that gives ability to search for movies from popular online tv sites
+# Chrome app that gives ability to watch movies online for free
 
 :heart: :free: :cinema: :heart:
 
