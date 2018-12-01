@@ -8,11 +8,15 @@
       "scripts": ["background.js"]
     }
   },
-  "web_accessible_resources": ["*.png", ["*.jpg"]],
   "permissions": [
     "browser",
     "notifications",
-    "https://*/*"
+    "webview",
+    "https://*/*",
+    "http://*/*"
     ],
+  "sandbox": {
+    "pages": ["iframe.html"]
+  },
   "icons": { "16": "pir-16.png", "128": "pir-128.png" }
 }

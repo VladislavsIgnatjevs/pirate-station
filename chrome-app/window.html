@@ -30,7 +30,7 @@
     <form type="POST" enctype="multipart/form-data" id="search_form">
         <div class="form-group">
             <label for="search">Search Movie</label>
-            <input id="search" class="form-control" type="text" name="search"  placeholder="Let's try to search movie with no fuss" />
+            <input id="search" class="form-control" type="text" name="search"  placeholder="Let's try to search for a movie with no fuss" />
         </div>
         <div class="form-group">
             <input type="submit"  class="btn btn-dark" value="Search" name="submit" class="button" />
@@ -38,13 +38,16 @@
 
     </form>
 
+    <div class="row" id="videoIframe" style="display: none;">
+    </div>
+
     <table class="table table-hover">
         <thead>
         <tr>
             <th>#</th>
             <th>Name</th>
-            <th>URL</th>
-            <th>IMDB</th>
+            <th>Watch</th>
+            <th>Kinopoisk</th>
         </tr>
         </thead>
         <tbody class="tablebody">

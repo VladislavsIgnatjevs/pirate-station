@@ -5,7 +5,6 @@ chrome.app.runtime.onLaunched.addListener(function() {
       'width': 700,
       'height': 450
     }
-
   });
 });
 
