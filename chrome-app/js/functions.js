@@ -84,7 +84,7 @@ function getMp4LinkFromPage(title) {
                video_typ = 'serial';
            }
             var friendlyindex = parseInt(index)+1;
-            var row = '<tr><td id="id">' + friendlyindex +'</td><td id="name">' +elem.title_ru + "(" + elem.year+  ")" + ' ' + elem.title_en + '</td><td id="url"><button type="button" data-parent="' + 'http://mastarti.com/' + video_type + '/' + elem.token +'/iframe?ref=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZfaG9zdCI6ImFkdWx0bXVsdC50diIsInJlcV9ob3N0IjoibW9vbndhbGsuY2MiLCJleHAiOjE1NDM3MTcxNzEsInRva2VuIjoiN2RhMWYyOGFjZjYzZjRlNGM1OTBmOTllOGY5OWJkMjIifQ.YxM5oyOoOpNXz8MqGNp7ymPEDPRBw1pVlx0wNRunpSo' +'" class="watch_vid btn btn-success">Watch</button></td> <td id="imdb"><a style="color: #6c757d;" target="_blank" href="' + 'https://www.kinopoisk.ru/film/' + elem.kinopoisk_id +'">Kinopoisk</a></td></tr>';
+            var row = '<tr><td id="id">' + friendlyindex +'</td><td id="name">' + (elem.title_ru == null ? '' : elem.title_ru ) + ' ' + elem.title_en +"(" + elem.year+  ")" + '</td><td id="url"><button type="button" data-parent="' + 'http://mastarti.com/' + video_type + '/' + elem.token +'/iframe?ref=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWZfaG9zdCI6ImFkdWx0bXVsdC50diIsInJlcV9ob3N0IjoibW9vbndhbGsuY2MiLCJleHAiOjE1NDM3MTcxNzEsInRva2VuIjoiN2RhMWYyOGFjZjYzZjRlNGM1OTBmOTllOGY5OWJkMjIifQ.YxM5oyOoOpNXz8MqGNp7ymPEDPRBw1pVlx0wNRunpSo' +'" class="watch_vid btn btn-success">Watch</button></td> <td id="imdb"><a style="color: #6c757d;" target="_blank" href="' + 'https://www.kinopoisk.ru/film/' + elem.kinopoisk_id +'">Kinopoisk</a></td></tr>';
 
 
             $('.tablebody').append(row);
