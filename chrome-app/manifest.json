@@ -12,6 +12,7 @@
     "browser",
     "notifications",
     "webview",
+    "fullscreen",
     "https://*/*",
     "http://*/*"
     ],
