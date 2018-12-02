@@ -9,7 +9,7 @@ $(document).ready(function () {
 
         $('.tablebody').empty();
 
-        getMp4LinkFromPage(search);
+         getMp4LinkFromPage(search);
     });
 
 
