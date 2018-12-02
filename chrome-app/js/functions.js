@@ -24,8 +24,6 @@ function getMp4LinkFromPage(title) {
                }
            }
 
-
-
             var friendlyindex = parseInt(index)+1;
             var row = '<tr><td id="id">'
                 //index

@@ -1,6 +1,6 @@
 {
   "name": "Pirate Station",
-  "description": "Viewing list of mp4 files from source",
+  "description": "Chrome app that gives ability to watch movies online for free",
   "version": "0.1",
   "manifest_version": 2,
   "app": {
@@ -16,8 +16,5 @@
     "https://*/*",
     "http://*/*"
     ],
-  "sandbox": {
-    "pages": ["iframe.html"]
-  },
   "icons": { "16": "pir-16.png", "128": "pir-128.png" }
 }
