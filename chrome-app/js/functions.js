@@ -9,7 +9,7 @@ function getMp4LinkFromPage(title) {
            if (elem.type == 'movie') {
                video_type = 'video';
            } else {
-               video_typ = 'serial';
+               video_type = 'serial';
            }
 
            if (elem.material_data) {
@@ -23,6 +23,8 @@ function getMp4LinkFromPage(title) {
                    }
                }
            }
+
+
 
             var friendlyindex = parseInt(index)+1;
             var row = '<tr><td id="id">'
